@@ -1,8 +1,12 @@
 [tool.poetry]
 name = "poetry_pypirc"
-version = "0.1.1"
+version = "0.1.2"
 description = "Sets poetry repository configs from a pypirc file."
-authors = ["Narek Amirbekian"]
+authors = ["NarekA"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/NarekA/poetry_pypirc"
+repository = "https://github.com/NarekA/poetry_pypirc"
 
 [tool.poetry.dependencies]
 python = "^3.8"
