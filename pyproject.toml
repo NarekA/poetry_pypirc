@@ -1,14 +1,14 @@
 [tool.poetry]
 name = "poetry_pypirc"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "Sets poetry repository configs from a pypirc file."
 authors = ["Narek Amirbekian"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 sh = "^1.14.2"
-toml = "^0.10.2"
 pathlib = "^1.0.1"
+configparser = "*"
 
 
 [tool.poetry.scripts]
