@@ -28,7 +28,7 @@ def main():
         if server_config.get("username") and server_config.get("password"):
             print(f"  Setting repositories.{server} auth")
             sh.poetry.config(
-                f"http-basic.{index_servers}", server_config.get("username"), server_config.get("password"))
+                f"http-basic.{server}", server_config.get("username"), server_config.get("password"))
 
 
 if __name__ == '__main__':
